@@ -10,9 +10,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 5%;
 
   img {
+    max-width: 180px;
     cursor: pointer;
+  }
+
+  a {
+    display: flex;
   }
 }
 
