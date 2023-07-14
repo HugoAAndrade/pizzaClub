@@ -49,15 +49,13 @@ export default function SignUp() {
         <title>Pizza Club - Faça seu Cadastro</title>
       </Head>
       <div className={styles.containerCenter}>
-        <Link href="/">
-          <Image
-            className={styles.logo}
-            src={logoImg}
-            alt="Logo Pizza Club"
-            placeholder="blur"
-            blurDataURL={"../../public/logo2.svg"}
-          />
-        </Link>
+        <Image
+          className={styles.logo}
+          src={logoImg}
+          alt="Logo Pizza Club"
+          placeholder="blur"
+          blurDataURL={"../../public/logo2.svg"}
+        />
 
         <div className={styles.login}>
           <h1>Criando sua conta</h1>
