@@ -8,7 +8,7 @@ export function setUpAPIClient(ctx = undefined) {
   let cookies = parseCookies(ctx);
 
   const api = axios.create({
-    baseURL: `https://pizzaclubapi.onrender.com/`,
+    baseURL: `https://pizzaclubapi.onrender.com`,
     headers: {
       Authorization: `Bearer ${cookies["@nextauth.token"]}`,
     },
